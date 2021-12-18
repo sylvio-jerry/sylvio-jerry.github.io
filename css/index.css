@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(202, 176, 135, 0.697);
+  color: black;
+}
+
+.container-fluid .badge {
+  color: black;
+  background-color: #b7c304;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.container-fluid nav {
+  padding-right: 50px;
+  z-index: 1000;
+}
+
+.container-fluid nav .game_name {
+  background-color: #7cbb07;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: 10px;
+  color: black;
+  font-size: 16px;
+}
+
+.container-fluid .game_content {
+  padding: 2%;
+}
+
+.container-fluid .before_table {
+  border: 1px solid black;
+}
+
+.container-fluid .div_help {
+  border: 1px solid #0e0d0d;
+  border-radius: 25px;
+  width: 50%;
+  background-color: rgba(202, 176, 135, 0.876);
+}
+
+.container-fluid .div_help .message {
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.container-fluid .div_help .message legend {
+  text-decoration: underline;
+}
+
+.container-fluid .div_help .message a {
+  color: purple;
+  font-size: 16px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */

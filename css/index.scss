@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(202, 176, 135, 0.697);
+    color: black;
+    // overflow: hidden;
+}
+
+.container-fluid{
+    .badge{
+        color: rgb(0, 0, 0);
+        background-color:  rgb(183, 195, 4);
+        padding:5px;
+        font-size:15px;
+      }
+    nav{
+       padding-right:50px;
+       z-index: 1000;
+       .game_name{
+            background-color:  rgb(124, 187, 7);
+            border-radius: 50%;
+            padding: 8px;
+            margin-left:10px;
+            color: black;
+            font-size: 16px;
+       }
+    }
+    .game_content{
+        padding: 2%;
+    }
+    .before_table{
+        border: 1px solid black;
+    }
+    .div_help{
+        border:1px solid rgb(14, 13, 13);
+        border-radius: 25px;
+        width: 50%;
+        background-color: rgba(202, 176, 135, 0.876);
+        .message{
+            overflow-y: auto;
+            overflow-x: auto;
+            .image-classement{
+                
+            }
+            legend{
+                text-decoration: underline;
+            }
+            a{
+                color: purple;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        }
+    }
+}
